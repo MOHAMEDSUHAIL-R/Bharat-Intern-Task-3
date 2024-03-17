@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+  
+  .buttons {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  
+  /* Main Section Styles */
+  .main {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/da37f566-83b5-4ea7-81dc-ea86327acfa4/9b77f53a-9ad2-4a88-af31-9a16a9e150f3/IN-en-20220228-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .main h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .try {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .try i {
+    margin-left: 5px;
+  }
+  
+  /* Container Styles */
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    padding: 0 20px;
+  }
+  
+  .container1 .text,
+  .container1 .image {
+    flex: 1;
+  }
+  
+  .container1 .text {
+    padding: 0 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .list1 {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list1 li {
+    margin-bottom: 10px;
+  }
+  
+  .list1 li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Additional Styles */
+  .footercon {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex1 {
+    flex: 1;
+  }
+  
+  .end {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
